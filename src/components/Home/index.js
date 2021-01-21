@@ -20,10 +20,10 @@ import patternHills from '../../images/pattern-hills.svg';
 
 const calculateTimeLeft = () => {
   var n = new Date();
+  const f = new Date(n.getFullYear(), n.getMonth(), n.getDate() + 14);
 
-  const f = new Date(n.getFullYear(), n.getMonth(), n.getDate(), n.getHours(), n.getMinutes() + 1);
-  const g = f;
-  var difference = g - n;
+  var difference = +f - +n;
+
   var timeLeft = {};
   if (difference > 0) {
     timeLeft = {
