@@ -25,13 +25,13 @@ export const Header = styled.h1`
   letter-spacing: 10px;
   color: white;
   text-align: center;
-  margin: 20vh auto 0;
+  margin: 15vh auto 0;
   /* max-width: 90%; */
 `;
 
 export const ImageContainer = styled.img`
   width: 100%;
-  height: 250px;
+  height: 150px;
   position: fixed;
   bottom: 0%;
   min-width: 100vw;
@@ -43,7 +43,7 @@ export const SocialContainer = styled.div`
   margin: 0 auto;
   text-align: center;
   position: fixed;
-  top: 87%;
+  top: 93%;
   z-index: 999;
 `;
 

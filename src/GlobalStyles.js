@@ -15,10 +15,11 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Red Hat Text', sans-serif;
         font-size: 14px;
         background: hsl(235, 16%, 14%) url(${bgStar}) no-repeat;
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
-        width: 100%;
+        max-width: 100vw;
         min-width: 800px;
+
     }
 
 `;
